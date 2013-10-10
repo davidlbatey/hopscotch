@@ -29,6 +29,9 @@ div.hopscotch-bubble {
   font-size: 13px;
   position: absolute;
   z-index: @bubbleZindex;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-szing: content-box;
 
   .background-clip;
 
@@ -72,6 +75,7 @@ div.hopscotch-bubble {
     line-height: 19px;
     margin: -1px @bubblePadding 0 0;
     padding: 0;
+    text-align: left;
   }
 
   .hopscotch-bubble-container {
@@ -87,6 +91,7 @@ div.hopscotch-bubble {
     line-height: 17px;
     margin: -5px 0 11px;
     padding-top: 8px;
+    text-align: left;
   }
 
   .hopscotch-bubble-content {
@@ -111,6 +116,9 @@ div.hopscotch-bubble {
 
     top: 0;
     right: 0;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-szing: content-box;
 
     &.hide,
     &.hide-all {
@@ -130,6 +138,9 @@ div.hopscotch-bubble {
     text-align: center;
     width: @circleWidth;
     height: @circleWidth;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-szing: content-box;
   }
 
   .hopscotch-bubble-arrow-container {
