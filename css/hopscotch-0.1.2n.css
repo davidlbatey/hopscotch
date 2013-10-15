@@ -398,6 +398,7 @@ div.hopscotch-bubble h3 {
   padding: 0;
   text-align: left;
   letter-spacing: 0px;
+  text-transform: none;
 }
 div.hopscotch-bubble .hopscotch-bubble-container {
   padding: 15px;
@@ -414,6 +415,7 @@ div.hopscotch-bubble .hopscotch-content {
   margin: -5px 0 11px;
   padding-top: 8px;
   text-align: left;
+  text-transform: none;
 }
 div.hopscotch-bubble .hopscotch-bubble-content {
   margin: 0 0 0 40px;
