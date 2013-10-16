@@ -272,6 +272,12 @@ div.hopscotch-bubble .hopscotch-nav-button {
   zoom: 1;
   *display: inline;
   vertical-align: middle;
+  position: static;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  text-indent: 0px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
@@ -391,9 +397,9 @@ div.hopscotch-bubble .hide-all {
 div.hopscotch-bubble h3 {
   color: #000;
   font-family: Helvetica, Arial;
-  font-size: 16px;
+  font-size: 16px !important;
   font-weight: bold;
-  line-height: 19px;
+  line-height: 19px !important;
   margin: -1px 15px 0 0;
   padding: 0;
   text-align: left;
@@ -411,7 +417,8 @@ div.hopscotch-bubble .hopscotch-bubble-container {
 div.hopscotch-bubble .hopscotch-content {
   font-family: Helvetica, Arial;
   font-weight: normal;
-  line-height: 17px;
+  font-size: 13px !important;
+  line-height: 17px !important;
   margin: -5px 0 11px;
   padding-top: 8px;
   text-align: left;
