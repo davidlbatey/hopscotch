@@ -413,6 +413,9 @@ div.hopscotch-bubble .hopscotch-bubble-container {
   -webkit-font-smoothing: antialiased;
   /* to fix text flickering */
 
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-szing: content-box;
 }
 div.hopscotch-bubble .hopscotch-content {
   font-family: Helvetica, Arial;
